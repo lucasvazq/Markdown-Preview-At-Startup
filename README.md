@@ -1,16 +1,29 @@
-# Markdown Preview At Startup
+<span align="center">
+    <h1>Markdown Preview At Startup</h1>
+</span>
 
-**VS Code Extension:** Allows you to open a markdown preview when the editor starts.
+<div align="center">
+    <img src="https://github.com/lucasvazq/Markdown-Preview-At-Startup/raw/main/logo.png" height="300px" width="300px" alt="GUI config example">
+</div>
 
-- Extension ID: LucasVazquez.markdown-preview-at-startup
-- Marketplace Link: https://marketplace.visualstudio.com/items?itemName=LucasVazquez.markdown-preview-at-startup
-- Repository Link: https://github.com/lucasvazq/Markdown-Preview-At-Startup
+<br>
+
+<span align="center">
+    <p><b>VS Code Extension</b></p>
+</span>
+<span align="center">
+    <p><i>Allows you to open a markdown preview when the editor starts</i></p>
+</span>
 
 ## Usage
 
 Different Options
 
-<details><summary>settings.json</summary>
+<details><summary>Workspace or User [JSON]</summary>
+
+<br>
+
+`settings.json`
 
 ```json
 {
@@ -20,7 +33,11 @@ Different Options
 
 </details>
 
-<details><summary>.devcontainer/devcontainer.json</summary>
+<details><summary>Dev Containers</summary>
+
+<br>
+
+`./.devcontainer/devcontainer.json`
 
 ```json
 {
@@ -43,3 +60,11 @@ Different Options
 </div>
 
 </details>
+
+## Info
+
+```yml
+Extension ID: LucasVazquez.markdown-preview-at-startup
+Marketplace Link: https://marketplace.visualstudio.com/items?itemName=LucasVazquez.markdown-preview-at-startup
+Repository Link: https://github.com/lucasvazq/Markdown-Preview-At-Startup
+```
