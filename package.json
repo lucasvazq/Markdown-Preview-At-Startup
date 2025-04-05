@@ -2,7 +2,7 @@
     "name": "markdown-preview-at-startup",
     "displayName": "Markdown Preview At Startup",
     "description": "VS Code Extension: Allows you to open a markdown preview when the editor starts.",
-    "version": "0.0.3",
+    "version": "0.0.5",
     "publisher": "lucasvazquez",
     "repository": {
         "type": "git",
