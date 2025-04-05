@@ -2,7 +2,7 @@
     "name": "markdown-preview-at-startup",
     "displayName": "Markdown Preview At Startup",
     "description": "VS Code Extension: Allows you to open a markdown preview when the editor starts.",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "publisher": "lucasvazquez",
     "repository": {
         "type": "git",
@@ -15,8 +15,11 @@
     "activationEvents": [
         "onStartupFinished"
     ],
+    "scripts": {
+        "publish": "npx @vscode/vsce publish"
+    },
     "vsce": {
-        "baseImagesUrl": "https://github.com/lucasvazq/Markdown-Preview-At-Startup/blob/main/logo.png",
+        "baseImagesUrl": "https://github.com/lucasvazq/Markdown-Preview-At-Startup/raw/main/logo.png",
         "dependencies": true,
         "yarn": false
     },

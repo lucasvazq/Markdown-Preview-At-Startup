@@ -8,9 +8,38 @@
 
 ## Usage
 
+Different Options
+
+<details><summary>settings.json</summary>
 
 ```json
 {
-
+    "markdownPreviewAtStartup.markdownFilePath": "docs/CUSTOM_README.md"
 }
 ```
+
+</details>
+
+<details><summary>.devcontainer/devcontainer.json</summary>
+
+```json
+{
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "markdownPreviewAtStartup.markdownFilePath": "docs/CUSTOM_README.md"
+            }
+        }
+    }
+}
+```
+
+</details>
+
+<details><summary>GUI</summary>
+
+<div align="center">
+    <img src="https://github.com/lucasvazq/Markdown-Preview-At-Startup/raw/main/GUI_config_example.png" alt="GUI config example">
+</div>
+
+</details>
