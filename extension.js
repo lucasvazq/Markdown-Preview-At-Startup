@@ -33,7 +33,7 @@ async function activate(context) {
     try {
         await vscode.commands.executeCommand('markdown.showPreview', uri);
     } catch (err) {
-        logError(`Failed to open Markdown preview: ${err.message}`);
+        showError(`Failed to open Markdown preview: ${err.message}`);
     }
 }
 
